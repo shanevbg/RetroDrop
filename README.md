@@ -1,7 +1,7 @@
-# MilkDrop3_retro
+# RetroDrop
 
 
-MilkDrop3_retro is a portable program that supports any audio source (Spotify, YouTube, SoundCloud, Winamp...)<br/>
+RetroDrop is a portable program that supports any audio source (Spotify, YouTube, SoundCloud, Winamp...)<br/>
 It is based on BeatDrop from Maxim Volskiy, so it's 100% compatible with any presets created with MilkDrop and projectM.<br/>
 MilkDrop3_retro does everything that MilkDrop2 can do, I will be only listing on this page the additional new features :)<br/><br/>
 
