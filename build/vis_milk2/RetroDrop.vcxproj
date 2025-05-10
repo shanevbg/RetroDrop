@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0493AB9A-3531-3AD3-A3DD-5C207B3CF9E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>RetroDrop</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">G:\Data\Source\Repos\RetroDrop\code\vis_milk2\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">RetroDrop.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">RetroDrop_Debug</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">G:\Data\Source\Repos\RetroDrop\code\vis_milk2\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">RetroDrop.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">RetroDrop_Release</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Data\Source\Repos\RetroDrop\code\vis_milk2\..\ns-eel2;\Microsoft DirectX SDK (June 2010)\Include;G:\Data\Source\Repos\RetroDrop\code\vis_milk2;G:\Data\Source\Repos\RetroDrop\code\ns-eel2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_DEBUG;WIN32;_WINDOWS;USE_VIS_HDR_HWND;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_VIS_HDR_HWND;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Data\Source\Repos\RetroDrop\code\vis_milk2\..\ns-eel2;\Microsoft DirectX SDK (June 2010)\Include;G:\Data\Source\Repos\RetroDrop\code\vis_milk2;G:\Data\Source\Repos\RetroDrop\code\ns-eel2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Data\Source\Repos\RetroDrop\code\vis_milk2\..\ns-eel2;\Microsoft DirectX SDK (June 2010)\Include;G:\Data\Source\Repos\RetroDrop\code\vis_milk2;G:\Data\Source\Repos\RetroDrop\code\ns-eel2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+cd G:\Data\Source\Repos\RetroDrop\code\vis_milk2
+if %errorlevel% neq 0 goto :cmEnd
+G:
+if %errorlevel% neq 0 goto :cmEnd
+xcopy G:\Data\Source\Repos\RetroDrop\code\vis_milk2\Debug\RetroDrop_Debug.exe G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\debug\plugins /Y
+if %errorlevel% neq 0 goto :cmEnd
+if not exist G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\debug\plugins\Milkdrop2 mkdir G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\debug\plugins\Milkdrop2
+if %errorlevel% neq 0 goto :cmEnd
+xcopy G:\Data\Source\Repos\RetroDrop\code\resources\Milkdrop2\* G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\debug\plugins\Milkdrop2 /Y /e
+if %errorlevel% neq 0 goto :cmEnd
+cd.   
+if %errorlevel% neq 0 goto :cmEnd
+cd.     
+if %errorlevel% neq 0 goto :cmEnd
+cd.    
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9d.lib;Shlwapi.lib;..\ns-eel2\Debug\nseel2_library.lib;user32.lib;d3d9.lib;d3dx9.lib;Shlwapi.lib;d3d9.lib;d3dx9d.lib;user32.lib;d3dx9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/Microsoft DirectX SDK (June 2010)/Lib/x86;/Microsoft DirectX SDK (June 2010)/Lib/x86/$(Configuration);G:/Data/Source/Repos/RetroDrop/code/vis_milk2;G:/Data/Source/Repos/RetroDrop/code/vis_milk2/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>G:/Data/Source/Repos/RetroDrop/code/vis_milk2/Debug/vis_milk2.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/Data/Source/Repos/RetroDrop/code/vis_milk2/Debug/RetroDrop_Debug.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\Data\Source\Repos\RetroDrop\code\vis_milk2\..\ns-eel2;\Microsoft DirectX SDK (June 2010)\Include;G:\Data\Source\Repos\RetroDrop\code\vis_milk2;G:\Data\Source\Repos\RetroDrop\code\ns-eel2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;STRSAFE_NO_DEPRECATE;NSEEL_REENTRANT_EXECUTION;WIN32;_WINDOWS;USE_VIS_HDR_HWND;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;STRSAFE_NO_DEPRECATE;NSEEL_REENTRANT_EXECUTION;_WINDOWS;USE_VIS_HDR_HWND;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\Data\Source\Repos\RetroDrop\code\vis_milk2\..\ns-eel2;\Microsoft DirectX SDK (June 2010)\Include;G:\Data\Source\Repos\RetroDrop\code\vis_milk2;G:\Data\Source\Repos\RetroDrop\code\ns-eel2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\Data\Source\Repos\RetroDrop\code\vis_milk2\..\ns-eel2;\Microsoft DirectX SDK (June 2010)\Include;G:\Data\Source\Repos\RetroDrop\code\vis_milk2;G:\Data\Source\Repos\RetroDrop\code\ns-eel2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+cd G:\Data\Source\Repos\RetroDrop\code\vis_milk2
+if %errorlevel% neq 0 goto :cmEnd
+G:
+if %errorlevel% neq 0 goto :cmEnd
+cd.   
+if %errorlevel% neq 0 goto :cmEnd
+cd.     
+if %errorlevel% neq 0 goto :cmEnd
+cd.    
+if %errorlevel% neq 0 goto :cmEnd
+xcopy G:\Data\Source\Repos\RetroDrop\code\vis_milk2\Release\RetroDrop_Release.exe G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\release\plugins /Y
+if %errorlevel% neq 0 goto :cmEnd
+if not exist G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\release\plugins\Milkdrop2 mkdir G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\release\plugins\Milkdrop2
+if %errorlevel% neq 0 goto :cmEnd
+xcopy G:\Data\Source\Repos\RetroDrop\code\resources\Milkdrop2\* G:\Data\Source\Repos\RetroDrop\code\..\musikcube\bin\release\plugins\Milkdrop2 /Y /e
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;Shlwapi.lib;..\ns-eel2\Release\nseel2_library.lib;d3d9.lib;d3dx9.lib;Shlwapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>/Microsoft DirectX SDK (June 2010)/Lib/x86;/Microsoft DirectX SDK (June 2010)/Lib/x86/$(Configuration);G:/Data/Source/Repos/RetroDrop/code/vis_milk2;G:/Data/Source/Repos/RetroDrop/code/vis_milk2/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/Data/Source/Repos/RetroDrop/code/vis_milk2/Release/vis_milk2.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>G:/Data/Source/Repos/RetroDrop/code/vis_milk2/Release/RetroDrop_Release.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule G:/Data/Source/Repos/RetroDrop/code/vis_milk2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SG:/Data/Source/Repos/RetroDrop/code -BG:/Data/Source/Repos/RetroDrop/build --check-stamp-file G:/Data/Source/Repos/RetroDrop/build/vis_milk2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">G:\Data\Source\Repos\RetroDrop\code\CMake\Default.cmake;G:\Data\Source\Repos\RetroDrop\code\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">G:\Data\Source\Repos\RetroDrop\build\vis_milk2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule G:/Data/Source/Repos/RetroDrop/code/vis_milk2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SG:/Data/Source/Repos/RetroDrop/code -BG:/Data/Source/Repos/RetroDrop/build --check-stamp-file G:/Data/Source/Repos/RetroDrop/build/vis_milk2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">G:\Data\Source\Repos\RetroDrop\code\CMake\Default.cmake;G:\Data\Source\Repos\RetroDrop\code\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">G:\Data\Source\Repos\RetroDrop\build\vis_milk2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\audiobuf.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\cleanup.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\common.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\log.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\loopback-capture.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\prefs.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AudioDeviceManager.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AutoCharFn.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AutoWide.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\defines.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\dxcontext.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\fft.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\md_defines.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\menu.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\plugin.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\pluginshell.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\resource.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\shell_defines.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\state.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\support.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\texmgr.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\textmgr.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\utility.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\wasabi.h" />
+    <None Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\text1.bin">
+    </None>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\dxcontext.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\fft.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\menu.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\milkdropfs.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\plugin.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\pluginshell.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\state.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\support.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\texmgr.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\textmgr.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\utility.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\wasabi.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\audiobuf.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\guid.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\log.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\loopback-capture.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\prefs.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AudioDeviceManager.cpp" />
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\Milkdrop2PcmVisualizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\Data\Source\Repos\RetroDrop\build\ZERO_CHECK.vcxproj">
+      <Project>{4B947113-561D-3492-9BFF-D859CD5FC6A1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Data\Source\Repos\RetroDrop\build\ns-eel2\nseel2_library.vcxproj">
+      <Project>{570DA0E7-B2D6-325A-B24D-5C8D109D328A}</Project>
+      <Name>nseel2_library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
