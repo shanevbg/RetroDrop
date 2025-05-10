@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "cppvsdbg",
+      "request": "launch",
+      "name": "Launch RetroDrop",
+      "program": "${workspaceFolder}/${input:executableName}.exe",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "executableName",
+      "description": "Enter the name of the executable to debug (e.g., RetroDrop)"
+    }
+  ]
+}

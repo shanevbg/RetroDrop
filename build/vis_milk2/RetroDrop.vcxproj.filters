@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\dxcontext.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\fft.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\menu.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\milkdropfs.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\plugin.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\pluginshell.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\state.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\support.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\texmgr.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\textmgr.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\utility.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\wasabi.cpp">
+      <Filter>library\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\audiobuf.cpp">
+      <Filter>musikcube</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\guid.cpp">
+      <Filter>musikcube</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\log.cpp">
+      <Filter>musikcube</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\loopback-capture.cpp">
+      <Filter>musikcube</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\audio\prefs.cpp">
+      <Filter>musikcube</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AudioDeviceManager.cpp">
+      <Filter>musikcube</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\Milkdrop2PcmVisualizer.cpp">
+      <Filter>musikcube</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\audiobuf.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\cleanup.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\common.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\log.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\loopback-capture.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\audio\prefs.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AudioDeviceManager.h" />
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AutoCharFn.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\AutoWide.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\defines.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\dxcontext.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\fft.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\md_defines.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\menu.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\plugin.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\pluginshell.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\resource.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\shell_defines.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\state.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\support.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\texmgr.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\textmgr.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\utility.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\wasabi.h">
+      <Filter>library\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\Data\Source\Repos\RetroDrop\code\vis_milk2\text1.bin">
+      <Filter>library\resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="library">
+      <UniqueIdentifier>{7672A814-6140-36AC-80EA-6DF54C9B6331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\headers">
+      <UniqueIdentifier>{500DC8FB-7C72-38DE-913B-FA5963BF2D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\resources">
+      <UniqueIdentifier>{5D522DFD-CFDA-3899-A26C-7B10DBA4175A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library\sources">
+      <UniqueIdentifier>{366A88F2-7F9C-3355-A2F7-0240CF8627A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="musikcube">
+      <UniqueIdentifier>{D3377F6E-BC7C-3BE8-BEE5-14D3D29B8932}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\nseel-caltab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\nseel-cfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\nseel-compiler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\nseel-eval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\nseel-lextab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\nseel-ram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\nseel-yylex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\ns-eel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Data\Source\Repos\RetroDrop\code\ns-eel2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A2D33139-6B2F-31C3-9C23-B4A17459AD5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F6863A11-3027-302B-8949-16CE7EC20392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
