@@ -1,5 +1,6 @@
 # RetroDrop
-
+FWI: I am going to look more closely at BeatDrop, which I forgot about for some reason.
+I just got confused.  There is a non zero chance project should be deleted :)
 
 RetroDrop is a portable program that supports any audio source (Spotify, YouTube, SoundCloud, Winamp...)<br/>
 It is based on BeatDrop from Maxim Volskiy, so it's 100% compatible with any presets created with MilkDrop and projectM.<br/>
